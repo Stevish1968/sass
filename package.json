@@ -5,7 +5,8 @@
   "source": "./app/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build ./app/index.html"
+    "build": "parcel build ./app/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.5.0",
     "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
