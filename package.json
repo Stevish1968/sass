@@ -2,11 +2,11 @@
   "name": "sass-course",
   "version": "1.0.0",
   "description": "",
-  "source": "./app/index.html",
+  "main": "index.js",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "deploy": "gh-pages -d dist"
+    "dev": "parcel app/index.html",
+    "build": "parcel build app/index.html",
+    "deploy": " rm -rf dist/ && npm build && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
