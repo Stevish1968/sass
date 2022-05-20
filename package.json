@@ -5,7 +5,7 @@
   "source": "./app/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build ./app/index.html",
+    "build": "parcel build --public-url /app/index.html",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
