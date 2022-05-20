@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"hRGsi":[function(require,module,exports) {
+})({"fxFob":[function(require,module,exports) {
 "use strict";
 var HMR_HOST = null;
-var HMR_PORT = null;
+var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "81ca58c9edfd6827";
+module.bundle.HMR_BUNDLE_ID = "b3c5321d28c48fc0";
 function _toConsumableArray(arr) {
     return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
 }
@@ -525,8 +525,8 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"am9KS":[function(require,module,exports) {
+},{}],"g3zU2":[function(require,module,exports) {
 
-},{}]},["hRGsi","am9KS"], "am9KS", "parcelRequire1783")
+},{}]},["fxFob","g3zU2"], "g3zU2", "parcelRequire1783")
 
-//# sourceMappingURL=index.edfd6827.js.map
+//# sourceMappingURL=app.28c48fc0.js.map
